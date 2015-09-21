@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search / will display always -->
+    <item android:id="@+id/communities"
+          android:icon="@drawable/ic_communities"
+          android:title="Created By"
+          android:showAsAction="never"/>
+     
+    <!-- Location Found -->
+    <item android:id="@+id/home"
+          android:icon="@drawable/ic_home"
+          android:title="Refresh"
+          android:showAsAction="never" />
+     
+    <!-- Refresh -->
+    <item android:id="@+id/allplanets"
+          android:icon="@drawable/ic_people"
+          android:title="Refresh"
+          android:showAsAction="ifRoom"
+          android:gravity="center" />
+     
+    <!-- Help -->
+    <item android:id="@+id/created"
+          android:icon="@drawable/ic_action_help"
+          android:title="Donate Us"
+          android:showAsAction="never"/>
+</menu>

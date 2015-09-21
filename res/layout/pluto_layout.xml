@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+ 	 android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">
+    
+ 	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imagepluto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pluto" />
+    
+    <TextView
+        android:id="@+id/plutotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:text="@string/plutotitle"/>
+    
+    <TextView
+        android:id="@+id/pluto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textSize="10dip"
+        android:text="@string/plutodescription"
+         />
+
+    <TextView
+        android:id="@+id/plutobullet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textSize="10dip"
+        android:text="@string/plutobullet"
+         />
+    	
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="Back" />
+
+	</LinearLayout>
+</ScrollView>
